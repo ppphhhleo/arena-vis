@@ -5,7 +5,7 @@
 <title>VISxGenAI 2026 — Bold Poster</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Shrikhand&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Fraunces:opsz,wght@9..144,400..900&family=Shrikhand&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 :root {
     --bg:    #FFFFFF;
@@ -70,9 +70,10 @@ body {
     margin-bottom: 4mm;
 }
 .poster-title {
-    font-family: "Shrikhand", "Libre Baskerville", serif;
-    font-weight: 400;
-    font-size: 52pt;
+    font-family: "Fraunces", "Libre Baskerville", serif;
+    font-weight: 700;
+    font-optical-sizing: auto;
+    font-size: 46pt;
     line-height: 0.95;
     letter-spacing: -0.015em;
     color: var(--dark);
@@ -283,26 +284,27 @@ body {
     letter-spacing: 0.02em;
     color: var(--dark);
 }
-</style>
+.flyer{position:relative}.vis-badge{flex-shrink:0;display:flex;align-items:center;}.vis-badge img{width:50mm;height:auto;display:block;}.qr-label.url{text-transform:none;letter-spacing:0;font-size:7.5pt;font-weight:500;}.deadlines .item .val{font-family:"DM Serif Display",serif;font-weight:400;font-size:22pt;color:var(--red);letter-spacing:-0.01em;line-height:1;text-transform:none;}.deadlines .item{display:flex;flex-direction:column;gap:1mm;}.deadlines .item .lbl{margin-right:0;display:block;}.deadlines{justify-content:space-around;}.deadlines .item{text-align:center;}.deadlines .item .lbl{font-family:"Space Grotesk",sans-serif;font-style:normal;font-weight:500;font-size:10pt;letter-spacing:0.16em;text-transform:uppercase;color:var(--dark);margin-right:0;margin-bottom:1mm;display:block;}.deadlines .item .val{color:var(--dark);}.org-section h4{font-family:"Libre Baskerville", serif;font-weight:700;font-style:normal;}.org-section h4{font-size:18pt;}.org .name{font-size:8.5pt;}.org .aff{font-size:5.5pt;}.poster-title .amp{font-family:"DM Serif Display",serif;font-style:normal;font-weight:400;}.track p{font-size:16.5pt;}.deadlines .item .lbl{font-size:11pt;}.venue-row{align-items:center;}.track h3,.track h2{text-wrap:balance;hyphens:none;}.track p{text-wrap:pretty;hyphens:auto;-webkit-hyphens:auto;}.track p{hyphens:none;-webkit-hyphens:none;text-wrap:pretty;}.date{font-family:"Space Grotesk",sans-serif;font-weight:500;text-transform:none;letter-spacing:0.01em;}.date .label{font-family:"Fraunces", "Libre Baskerville", serif;font-style:italic;font-weight:400;text-transform:none;letter-spacing:0;font-size:1.1em;margin-right:0.55em;}.track p em{font-family:"DM Serif Display",serif;font-style:italic;font-weight:400;font-size:20pt;color:var(--red);}.track .num{font-family:"Space Grotesk",sans-serif;font-style:normal;font-weight:600;font-size:11pt;text-transform:uppercase;letter-spacing:0.16em;line-height:1;}.track{grid-template-columns:1fr;column-gap:0;row-gap:4mm;}.track .num{margin-bottom:1mm;}.venue-row{margin-bottom:6mm;}</style>
 </head>
 <body>
 <div class="flyer">
     <div class="hero">
-        <h1 class="poster-title">2nd GenAI, Agents,<br>&amp; the Future <span class="ital">of</span> <span class="red">VIS.</span></h1>
+        <h1 class="poster-title">2nd GenAI, Agents,<br><span class="amp">&amp;</span> the Future <span class="ital">of</span> <span class="red">VIS.</span></h1>
         <div class="venue-row">
-            <span class="venue">@ IEEE VIS 2026 Workshop</span>
-            <span class="date">Nov 9, 2026 · Boston, MA</span>
+            
+            <span class="date"><span class="label">Workshop</span>Nov 9, 2026 · Boston, MA</span>
+            <div class="vis-badge"><img src="vis2026_logo.svg" alt="IEEE VIS 2026"></div>
         </div>
     </div>
 
     <div class="tracks">
         <article class="track one">
-            <div class="num">i.</div>
+            <div class="num">Track I</div>
             <h3>Papers & Position Talks</h3>
-            <p>Research papers, position pieces, and demos on GenAI, agents, and visualization. Short and long formats.</p>
+            <p>Research papers, position pieces, and demos on GenAI, agents, and visualization. Short and long formats — bring <em>early ideas</em>, finished systems, or provocations.</p>
         </article>
         <article class="track two">
-            <div class="num">ii.</div>
+            <div class="num">Track II</div>
             <h3>Agentic VIS Challenge</h3>
             <p>Build, adapt, and submit AI agents into the <em>VIS Arena</em> — agents that automatically analyze datasets and generate visual data reports.</p>
         </article>
@@ -316,7 +318,7 @@ body {
     </div>
 
     <div class="org-section">
-        <h4>Organizers<span class="red">.</span></h4>
+        <h4>Organizers</h4>
         <div class="org-grid">
             <div class="org"><div class="avatar">ZC</div><div class="name">Zhu-Tian Chen</div><div class="aff">U. Minnesota–Twin Cities</div></div>
             <div class="org"><div class="avatar">NK</div><div class="name">Nam Wook Kim</div><div class="aff">Boston College</div></div>
@@ -325,7 +327,7 @@ body {
             <div class="qr-pair">
                 <div class="sp-slot">sponsor logo</div>
                 <div class="qrs">
-                    <div class="qr"><img src="qr.png" alt="QR"><div class="qr-label">Website</div></div>
+                    <div class="qr"><img src="qr.png" alt="QR"><div class="qr-label url">visxgenai.github.io</div></div>
                     <div class="qr"><img src="discord-qr.png" alt="Discord QR"><div class="qr-label"><span class="red">Discord</span></div></div>
                 </div>
             </div>

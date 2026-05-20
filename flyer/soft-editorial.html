@@ -5,7 +5,7 @@
 <title>VISxGenAI 2026 — Soft Editorial</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Work+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=DM+Serif+Display:ital@0;1&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Work+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <style>
 :root {
     --paper: #F2EEDF;
@@ -319,7 +319,7 @@ body {
     color: var(--ink);
     opacity: 0.6;
 }
-</style>
+.flyer{position:relative}.venue-row{display:flex;align-items:center;justify-content:space-between;gap:8mm;margin-top:2mm;}.venue-row .date{margin-top:0;}.venue-row .vis-badge{flex-shrink:0;display:flex;align-items:center;}.venue-row .vis-badge img{width:50mm;height:auto;display:block;}.qr-label.url{text-transform:none;letter-spacing:0;font-size:7.5pt;font-weight:500;}.deadlines .val{font-family:"DM Serif Display",serif;font-weight:400;font-size:22pt;color:var(--ink);letter-spacing:-0.01em;line-height:1;text-transform:none;}.qr-label.url{font-size:9pt;}.venue-row{justify-content:center;}.track h3,.track h2{text-wrap:balance;hyphens:none;}.track p{text-wrap:pretty;hyphens:auto;-webkit-hyphens:auto;}.track p{hyphens:none;-webkit-hyphens:none;text-wrap:pretty;}.date{font-family:"Space Grotesk",sans-serif;font-weight:500;text-transform:none;letter-spacing:0.01em;}.date .label{font-family:"Cormorant Garamond", serif;font-style:italic;font-weight:400;text-transform:none;letter-spacing:0;font-size:1.1em;margin-right:0.55em;}.venue-row{margin-bottom:6mm;}</style>
 </head>
 <body>
 <div class="flyer">
@@ -328,8 +328,7 @@ body {
             2nd GenAI, Agents,<br>
             &amp; the Future of <span class="underline-word">Visualization</span>
         </h1>
-        <div class="venue">@ IEEE VIS 2026 Workshop</div>
-        <div class="date">Nov 9, 2026 · Boston, MA</div>
+        <div class="venue-row"><div class="date"><span class="label">Workshop</span>Nov 9, 2026 · Boston, MA</div><div class="vis-badge"><img src="vis2026_logo.svg" alt="IEEE VIS 2026"></div></div>
         <span class="flourish"></span>
     </div>
 
@@ -364,7 +363,7 @@ body {
             <div class="qr-pair">
                 <div class="sp-slot">sponsor logo</div>
                 <div class="qrs">
-                    <div class="qr"><img src="qr.png" alt="QR"><div class="qr-label">Website</div></div>
+                    <div class="qr"><img src="qr.png" alt="QR"><div class="qr-label url">visxgenai.github.io</div></div>
                     <div class="qr"><img src="discord-qr.png" alt="Discord QR"><div class="qr-label">Discord</div></div>
                 </div>
             </div>
